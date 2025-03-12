@@ -1,0 +1,92 @@
+html {
+    background: url(Images/VintageFoodBackground.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    background: #3A2021;
+    border-radius: 18px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #d1c4c3;
+    padding: 10px 50px;
+}
+
+h1 {
+    font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+}
+
+/* Table Section */
+
+table {
+    width: 40%;
+    color: black;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th, td {
+    border: 2px solid #a19999;
+    padding: 2px;
+    text-align: center;
+}
+
+th {
+    background-color: #d1c4c3;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.style {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.maindiv {
+    background-color: #a19999;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+/* Button Section */
+
+a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+button {
+    background-color: black;
+    border: 1px solid white;
+    color: gold;
+    padding: 7px 18px;
+    border-radius: 1px 1px 8px 8px;
+    cursor: pointer;
+    transition: width 0.8s;
+    width: 160px;
+    margin-left: 400px;
+}
+
+button:hover {
+    width: 200px;
+    color: rgb(172, 146, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}

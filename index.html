@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fast Food Menu</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="maindiv"><h1>Fast Food Menu</h1></div>
+        <hr>
+        <h2>Main Course</h2>
+        <p>The Main menu for the restaurant, with all of our delectible foods and even a secret menu that 
+            <span id="exlu">exclusive</span> customers get access to!
+        </p>
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Meal Name</th>
+                <th>Calories</th>
+                <th>Price</th>
+            </tr>
+            <!-- Hamburger -->
+            <tr>
+                <td><img src="Images/Hamburger.png" alt="Simple Hamburger Vector"></td>
+                <td>Hamburger</td>
+                <td>295</td>
+                <td>$4.99</td>
+            </tr>
+        </table>
+        <h2>Side's</h2>
+        <ul class="style">
+            <li>Fries</li>
+            <li>Baked Beans</li>
+            <li>Avacado Toast</li>
+            <li>Pasta Salad</li>
+        </ul>
+        <h2>Dessert's</h2>
+        <ul class="style">
+            <li>Tiramisu</li>
+            <li>Cheesecake</li>
+            <li>Apple Pie</li>
+            <li>Banana Pudding</li>
+        </ul>
+        <!-- The Drink Section uses a new tag which is <video>, it simply adds a video to your html webpage like a <img> tag, with options like height and width. -->
+        <h2>Drinks</h2>
+        <video width="500" height="300" controls> <!-- The "controls" alows the video to have controls like play, pause, full screen, audio, and a little more. -->
+            <source src="Videos/DrinkVideo.mp4"> <!-- The src is where the video is located and what video to choose like the <img> tag. -->
+        </video>
+        <p class="menuBack"><button><span id="exlu"><a href="https://www.chateaulacombe.com/eat-drink/la-ronde/" target="_blank">Exclusive Menu</a></span></button></p>
+    </body>
+</html>
